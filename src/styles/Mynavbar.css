@@ -1,0 +1,76 @@
+/* CSS for Mynavbar Component */
+.navbar {
+  background-color: #333; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+}
+
+.logo {
+  width: 50px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+.logo-nav {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.logo-span {
+  color: #ffc107; /* Adjust color as needed */
+}
+
+.logo2-span {
+  font-size: 1.5rem;
+  color: #ffc107; /* Adjust color as needed */
+}
+
+.nav-link {
+  color: #fff; /* Adjust text color as needed */
+  margin-right: 20px; /* Adjust margin as needed */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #ffc107; /* Adjust hover color as needed */
+}
+
+.btn-primary1 {
+  background-color: transparent;
+  border-color: #ffc107; /* Adjust border color as needed */
+  color: #ffc107; /* Adjust text color as needed */
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.btn-primary1:hover {
+  background-color: #ffc107; /* Adjust hover background color as needed */
+  color: #333; /* Adjust hover text color as needed */
+}
+
+.btn-primary {
+  background-color: #ffc107; /* Adjust background color as needed */
+  border-color: #ffc107; /* Adjust border color as needed */
+  color: #333; /* Adjust text color as needed */
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.btn-primary:hover {
+  background-color: #333; /* Adjust hover background color as needed */
+  border-color: #333; /* Adjust hover border color as needed */
+  color: #ffc107; /* Adjust hover text color as needed */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .logo-nav {
+    font-size: 1.5rem;
+  }
+
+  .logo2-span {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+}

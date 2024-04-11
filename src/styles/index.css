@@ -1,0 +1,58 @@
+/* CSS for Home Component */
+.container-fluid.home {
+  padding: 50px 0;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-head {
+  color: #f0ad4e; /* Adjust color as needed */
+}
+
+.home-p1 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.btn-p {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Adjust color as needed */
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-p:hover {
+  background-color: #0056b3; /* Adjust color as needed */
+}
+
+.dog1 {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .col1, .col2 {
+    text-align: center;
+  }
+}

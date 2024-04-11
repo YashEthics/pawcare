@@ -1,0 +1,63 @@
+/* CSS for Logged Component */
+.container-fluid.logged-c {
+  padding: 50px 0;
+}
+
+.logged-nav {
+  background-color: #333; /* Adjust color as needed */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.text-white {
+  color: #fff !important; /* Adjust color as needed */
+}
+
+.con1 {
+  background-color: #f8f9fa; /* Adjust color as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.emaili {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-pri {
+  background-color: #007bff; /* Adjust color as needed */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-pri:hover {
+  background-color: #0056b3; /* Adjust color as needed */
+}
+
+.acc-img {
+  width: 100px; /* Adjust image size as needed */
+  height: 100px; /* Adjust image size as needed */
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.ver {
+  color: #28a745; /* Adjust color as needed */
+}
+
+.ver-img {
+  width: 20px; /* Adjust image size as needed */
+  height: 20px; /* Adjust image size as needed */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .con1 {
+    width: 90%;
+  }
+}
